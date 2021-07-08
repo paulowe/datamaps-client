@@ -24,7 +24,7 @@ class Students extends Component {
   render() {
     return (
       <div>
-        <Head title="H4I Apply | Students" />
+        <Head title="DataMaps Apply | Students" />
         <Nav navType="otherNav" />
         <GradientBanner
           color="#64ab8a"

@@ -29,7 +29,7 @@ class NonProfits extends Component {
   render() {
     return (
       <div>
-        <Head title="H4I Apply | Faculty" />
+        <Head title="DataMaps Apply | Faculty" />
         <Nav navType="otherNav" />
         <GradientBanner
           color="#64ab8a"
