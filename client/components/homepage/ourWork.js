@@ -8,20 +8,20 @@ import ActionLink from "../actionLink";
 
 const items = [
   <ProjectContainer
-    title="Kiva"
-    subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
+    title="Comparison Map"
+    subtitle="How might we compare, and share data at the country unit level?"
     image="url('/static/images/projects/kiva-2/kiva2-thumbnail copy.png')"
     link="/projects?name=kiva-2"
   />,
   <ProjectContainer
-    title="SafeMaps"
-    subtitle="How might we make students feel safer on campus?"
+    title="Spreadsheet Map"
+    subtitle="How might we visualize location data with arbitrary attributes from spreadsheet columns to enhance clarity of datasets?"
     image="url('/static/images/projects/safemaps/sm-safemaps-cover.png')"
-    link="/projects?name=safemaps"
+    link="https://aif-mvp.herokuapp.com"
   />,
   <ProjectContainer
-    title="Global Giving"
-    subtitle="How might we expand Global Giving’s impact and reach on domestic and international nonprofits?"
+    title="Globally Networked Learning on Twitter"
+    subtitle="How might we assess and expand Global Networked Learning's impact and reach on domestic and international online entites?"
     image="url('/static/images/projects/gg-2/gg2-thumbnail.png')"
     link="/projects?name=gg-2"
   />
@@ -41,11 +41,10 @@ const OurWorkSection = () => (
               We believe in using tech for good.
             </h2>
             <p className="subtitle text-center">
-              Each semester, we work with three to five non-profits with the
-              opportunity to build a great product that solves a core need. We
-              work in small groups led by a product manager and technical lead
-              to scope and develop the application, taking into account our
-              clients’ requirements and suggestions
+              What does this mean for your courses, teaching practice and
+              research? Join us to learn, ask questions, and help form the
+              direction of York University’s strategy, as we kick-off this work
+              in Open Education.
             </p>
           </div>
         )}

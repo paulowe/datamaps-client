@@ -7,23 +7,42 @@ export default () => (
     <Container>
       <Row>
         <h1 className="section-title center" style={{ marginBottom: "50px" }}>
-          Our Sponsors
+          Our Partners
         </h1>
       </Row>
       <Row>
         <Col className="text-right">
           <img
-            width="210"
-            height="80"
-            src="/static/images/engineering.png"
+            width="140"
+            height="173"
+            src="/static/images/glendon.png"
             className="center partner-logos"
           />
         </Col>
         <Col>
           <img
+            width="170"
+            height="170"
+            src="/static/images/lassonde.png"
+            className="center partner-logos"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col className="text-right">
+          <img
+            width="170"
+            height="157"
+            src="/static/images/usfq.png"
+            className="center partner-logos"
+          />
+        </Col>
+
+        <Col>
+          <img
             width="260"
-            height="65"
-            src="/static/images/wharton.png"
+            height="69"
+            src="/static/images/monterrey.png"
             className="center partner-logos"
           />
         </Col>
